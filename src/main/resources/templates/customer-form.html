@@ -20,8 +20,10 @@
 
     <br><br>
 
-    Last name: <input type="text" th:field="*{lastName}" />
-    <span th:if="${#field.hasErrors('lastName')}" th:errors="*{lastName}" class="error"/>
+    Last name (*): <input type="text" th:field="*{lastName}" />
+    <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}" class="error"/>
+
+    <br><br>
 
     <input type="submit" value="Submit"/>
 
