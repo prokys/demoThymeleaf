@@ -10,6 +10,9 @@ public class Customer {
     @Size(min = 1, message = "is required")
     private String lastName;
 
+    public Customer() {
+    }
+
     public String getFirstName() {
         return firstName;
     }
