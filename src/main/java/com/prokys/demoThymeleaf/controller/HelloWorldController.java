@@ -1,4 +1,4 @@
-package com.prokys.demoThymeleaf;
+package com.prokys.demoThymeleaf.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
