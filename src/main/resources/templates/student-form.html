@@ -18,8 +18,15 @@
 
     <br><br>
 
-    <input type="submit" value="Submit">
+    <select th:field="*{country}">
 
+        <option th:each="tempCountry : ${countries}" th:value="${tempCountry}" th:text="${tempCountry}">Brazil</option>
+
+    </select>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
 
 </form>
 
